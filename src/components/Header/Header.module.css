@@ -1,0 +1,11 @@
+.header {
+  background-color: #000000;
+}
+
+.headerTitle {
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  /* text-align: center; */
+  color: gray;
+}

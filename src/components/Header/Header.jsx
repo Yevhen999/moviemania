@@ -1,14 +1,14 @@
-// import { NavLink } from "react-router-dom";
+import css from "./Header.module.css";
 
 import icon from "../../img/main-icon.png";
-import theme from "../../img/theme.png";
+import theme from "../../img/theme-switcher.png";
 
 export const Header = () => {
   return (
-    <header>
+    <header className={css.header}>
       <nav>
         <img src={icon} alt="main-icon" />
-        <p>MENU</p>
+        <p className={css.headerTitle}>MENU</p>
       </nav>
       <button>
         <img src={theme} alt="theme" />
