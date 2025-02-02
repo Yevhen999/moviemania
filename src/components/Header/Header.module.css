@@ -1,11 +1,48 @@
-.header {
+.appHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 20px 12px 20px;
+
   background-color: #000000;
 }
 
-.headerTitle {
+.appNav {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* text-align: center; */
+}
+
+/* .logoLink {
+
+  margin-right: 92px;
+} */
+
+.headerTitle,
+.buttonMenu {
+  font-family: var(--font-family);
   font-weight: 500;
   font-size: 12px;
   text-transform: uppercase;
-  /* text-align: center; */
-  color: gray;
+
+  color: var(--grey);
+}
+
+.buttonMenu {
+  background: transparent;
+  border: none;
+}
+
+.headerButton {
+  /* margin-left: 78px; */
+  border-radius: 194px;
+  border: none;
+  width: 44px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(145deg, #ffc226 0%, #f84119 100%);
 }
